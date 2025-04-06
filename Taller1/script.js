@@ -1,14 +1,5 @@
 import { series } from './data.js';
 
-console.log(series);  // Verifica que series sea un arreglo
-if (Array.isArray(series)) {
-  series.forEach(serie => {
-    console.log(serie.name);  // Mostrar el nombre de cada serie
-  });
-} else {
-  console.error("La variable 'series' no es un arreglo.");
-}
-
 document.addEventListener("DOMContentLoaded", function () {
     const seriesTable = document.getElementById('series');
 
