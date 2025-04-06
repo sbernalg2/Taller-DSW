@@ -7,11 +7,3 @@ export const series = [
     new Serie(5, "Sherlock", "BBC", 4, "Sherlock depicts consulting detective Sherlock Holmes...", "https://www.bbc.co.uk/programmes/b018ttws", "https://i.imgur.com/02B7qhj.jpg"),
     new Serie(6, "A Very English Scandal", "BBC", 2, "A Very English Scandal is a fact-based...", "https://www.bbc.co.uk/programmes/p065smy4", "https://i.imgur.com/D4y3DrQ.jpg"),
 ];
-if (Array.isArray(Serie)) {
-    series.forEach(Serie => {
-        console.log(Serie.name); // Mostrar el nombre de cada serie
-    });
-}
-else {
-    console.error("La variable 'series' no es un arreglo.");
-}
